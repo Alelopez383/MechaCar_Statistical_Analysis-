@@ -48,3 +48,37 @@ lot_summary <- suspension_table %>% group_by(Manufacturing_Lot) %>% summarize(Me
                                                                          Var=var(PSI),
                                                                          Std_Dev=sd(PSI),
                                                                          .groups = 'keep')  
+
+#Box plots with more than one
+plt <- ggplot(suspension_table,aes(x=Manufacturing_Lot ,y=PSI)) #import dataset into ggplot2
+plt + geom_boxplot(fill = "white", colour = "#3366FF", outlier.colour = "red", outlier.shape = 1)
+
+plt <- ggplot(suspension_table,aes(y=PSI)) #import dataset into ggplot2
+plt + geom_boxplot()
+
+#Deliverable 3: T-Tests on Suspension Coils
+?t.test()
+
+t.test(suspension_table$PSI,mu=1500)
+plt <- ggplot(suspension_table,aes(x=PSI)) #import dataset into ggplot2
+plt + geom_density() #visualize distribution using density plot
+
+# t-test by lot
+lot1 <- subset(suspension_table, Manufacturing_Lot=="Lot1")
+t.test(lot1$PSI,mu=1500)
+
+plt <- ggplot(lot1,aes(x=PSI)) #import dataset into ggplot2
+plt + geom_density() #visualize distribution using density plot
+
+lot2 <- subset(suspension_table, Manufacturing_Lot=="Lot2")
+t.test(lot2$PSI,mu=1500)
+
+plt <- ggplot(lot2,aes(x=PSI)) #import dataset into ggplot2
+plt + geom_density() #visualize distribution using density plot
+
+
+lot3 <- subset(suspension_table, Manufacturing_Lot=="Lot3")
+t.test(lot3$PSI,mu=1500)
+
+plt <- ggplot(lot3,aes(x=PSI)) #import dataset into ggplot2
+plt + geom_density() #visualize distribution using density plot
