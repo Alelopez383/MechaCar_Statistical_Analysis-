@@ -109,4 +109,19 @@ Although the number of significant variables, the multiple linear regression mod
 The design specifications for the MechaCar suspension coils dictate that the **variance of the suspension coils must not exceed 100 pounds per square inch**. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 
-If we look at the results of the total summary, we can see that there are too many outliers, however, the variance of the suspension coils is within the established limit (62.29356 < 100 pounds per square inch). But, when we observed by lot, we can see that the Lot 3 is not under the established limit, and even have more inconsistencies in general.
+If we look at the results of the total summary, we can see that there are too many outliers, however, the variance of the suspension coils is within the established limit (62.29356 < 100 pounds per square inch). But, when we observed by lot, we can see that the Lot 3 is not under the established limit, and even have more inconsistencies in general. So, the lots by themselves, only the Lot 3 is not meeting the design specifications for manufacture. 
+
+## T-Tests on Suspension Coils
+Now we want to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+- Lot 1
+
+![lot 1](https://user-images.githubusercontent.com/43974872/204211565-714fc0ed-d7de-41b7-93bc-a4447e6c93aa.png)
+
+- Lot 2
+
+![Lot 2](https://user-images.githubusercontent.com/43974872/204211697-26bdd30d-8d22-48c0-ba30-978d2d78be99.png)
+
+- Lot 3
+ ![Lot 3](https://user-images.githubusercontent.com/43974872/204211856-d85adf2d-3cad-4aeb-ac74-b972c516d952.png)
+
