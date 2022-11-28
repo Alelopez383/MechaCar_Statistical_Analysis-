@@ -1,0 +1,27 @@
+# Delivery 1: Linear Regression to Predict MPG
+
+#Installing packages and libraries
+install.packages("tidyverse")
+install.packages("jsonlite")
+install.packages("readxl")
+install.packages("ggplot2")
+
+library(tidyverse)
+library (jsonlite)
+library(readxl)
+library(ggplot2)
+library(dplyr)
+
+# Read MechaCar_mpg.csv
+mechacar_table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
+
+head(mechacar_table)
+
+# LINEAR REGRESSION
+?lm()
+
+# multiple linear regression 
+lm(mpg ~vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mechacar_table)
+
+#generate summary statistics
+summary(lm(mpg ~vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mechacar_table))
