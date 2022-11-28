@@ -87,5 +87,5 @@ F-statistic: 5.816 on 1 and 48 DF,  p-value: 0.01975
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-Although the number of significant variables, the multiple linear regression model outperformed the simple linear regression. According to the summary output, the r-squared value has increased from 0.10 -0.30 in the simple linear regression model (for each simple models) to 0.71 in our multiple model. But the lack of significant variables is evidence of overfitting. Overfitting means that the performance of a model performs well with a current dataset, but fails to generalize and predict future data correctly. 
+Although the number of significant variables, the multiple linear regression model outperformed the simple linear regression. According to the summary output, the r-squared value has increased from 0.10 -0.30 in the simple linear regression model (for each simple models) to 0.71 in our multiple model. But the lack of significant variables is evidence of overfitting. Overfitting means that the performance of a model performs well with a current dataset, but fails to generalize and predict future data correctly. Therefore, it doen´t predict the mpg or MechaCar prototypes effectively.
 
