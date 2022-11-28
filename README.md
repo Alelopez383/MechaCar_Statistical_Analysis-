@@ -146,10 +146,10 @@ Now we want to determine if all manufacturing lots and each lot individually are
 
 In general, there are several factors when comparing a vehicle to the competition. The main factors for the final consumer are concentrated in the first place, cost - benefit, that is, whether the car is worth the sale price. Therefore, the necessary variables to carry out a study of the competition would be the sale price and the manufacturer's costs, since the price must be related to it. On the other hand, buyers are looking for safety and fuel economy. Lastly, aesthetic attributes of the vehicle, which will vary according to the price models of the vehicles and which will be the differentiators with respect to competing vehicles.
 
-Therefore, we are goint to do a Correlational research, which attempts to determine the extent of a relationship between two or more variables using statistical data. In this type of design, relationships between and among a number of facts are sought and interpreted. This type of research will recognize trends and patterns in data. 
+Therefore, we are going to do a Correlational research, which attempts to determine the extent of a relationship between two or more variables using statistical data. In this type of design, relationships between and among a number of facts are sought and interpreted. This type of research will recognize trends and patterns in data. 
 
 - What metric or metrics are you going to test?
-Variance and frequencies. Variance because we want to know how much variance in the dependent variable (safety) is accounted for in a linear combination of independent variables (prices, fuel economy, costs, number of vehicles sold). But also frequencies, because wwe want to know if there is a difference in categorical frequencies between groups (models of vehicles / competitors)
+Variance and frequencies. Variance because we want to know how much variance in the dependent variable (safety) is accounted for in a linear combination of independent variables (prices, fuel economy, costs, number of vehicles sold). But also frequencies, because we want to know if there is a difference in categorical frequencies between groups (models of vehicles / competitors and number of vehicles sold)
 
 - What is the null hypothesis or alternative hypothesis?
 The null hypothesis, the vehicle performance (safety) is relevant for the consummer when they buy a car. 
