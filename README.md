@@ -114,14 +114,31 @@ If we look at the results of the total summary, we can see that there are too ma
 ## T-Tests on Suspension Coils
 Now we want to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-- Lot 1
+### Total 
+- Assuming our significance level of 0.05 percent, our p-value is slightly above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+![image](https://user-images.githubusercontent.com/43974872/204212918-965449dd-8d1a-4b56-b7f1-7e30b89e4201.png)
+
+![total](https://user-images.githubusercontent.com/43974872/204212792-0884d952-9ea2-47ee-8d76-2420a9d81c46.png)
+
+### Lot 1
+- The p- value of Lot 1 is one; so that suggests no difference between the Lot 1 mean and the mean of the total lots (population). 
+
+![image](https://user-images.githubusercontent.com/43974872/204212997-4e27216d-13b4-4bdd-bdb9-7b0f70ac9c79.png)
 
 ![lot 1](https://user-images.githubusercontent.com/43974872/204211565-714fc0ed-d7de-41b7-93bc-a4447e6c93aa.png)
 
-- Lot 2
+### Lot 2
+- The p-value is above the significance level (0.6072 > 0.05). Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+![image](https://user-images.githubusercontent.com/43974872/204213053-8d66c5ac-a2b9-42ca-94d7-c6e5788e3a8c.png)
 
 ![Lot 2](https://user-images.githubusercontent.com/43974872/204211697-26bdd30d-8d22-48c0-ba30-978d2d78be99.png)
 
-- Lot 3
+### Lot 3
+- The p-value is under the significance level (0.04168 < 0.05). Therefore, we have sufficient evidence to reject the null hypothesis and state that the two means are statistically different, so the mean of the Lot 3 is not similar at all to the mean of the population.
+
+![image](https://user-images.githubusercontent.com/43974872/204213116-0aac777d-4a68-46ea-8d4f-0043cb3131b7.png)
+
  ![Lot 3](https://user-images.githubusercontent.com/43974872/204211856-d85adf2d-3cad-4aeb-ac74-b972c516d952.png)
 
