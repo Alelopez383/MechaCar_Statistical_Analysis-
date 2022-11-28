@@ -20,6 +20,12 @@ head(mechacar_table)
 # LINEAR REGRESSION
 ?lm()
 
+# simple linear regression
+summary(lm(mpg ~vehicle_length,data=mechacar_table))
+
+# simple linear regression
+summary(lm(mpg ~ground_clearance,data=mechacar_table))
+
 # multiple linear regression 
 lm(mpg ~vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mechacar_table)
 
