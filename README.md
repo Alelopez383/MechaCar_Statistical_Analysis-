@@ -87,7 +87,26 @@ F-statistic: 5.816 on 1 and 48 DF,  p-value: 0.01975
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-Although the number of significant variables, the multiple linear regression model outperformed the simple linear regression. According to the summary output, the r-squared value has increased from 0.10 -0.30 in the simple linear regression model (for each simple models) to 0.71 in our multiple model. But the lack of significant variables is evidence of overfitting. Overfitting means that the performance of a model performs well with a current dataset, but fails to generalize and predict future data correctly. Therefore, it doen´t predict the mpg or MechaCar prototypes effectively.
+Although the number of significant variables, the multiple linear regression model outperformed the simple linear regressions. According to the summary output, the r-squared value has increased from 0.10 -0.30 in the simple linear regressions models (for each simple models) to 0.71 in our multiple model. But the lack of significant variables is evidence of overfitting. Overfitting means that the performance of a model performs well with a current dataset, but fails to generalize and predict future data correctly. Therefore, it predicts effectively although it is not the ideal model.
 
- ## 2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+ ## 2. Summary Statistics on Suspension Coils
+ - Total Summary
  
+ ![image](https://user-images.githubusercontent.com/43974872/204205808-e5410931-5918-4123-a8e7-93c9d7d37b3f.png)
+ 
+ - Lot Summary 
+ 
+![image](https://user-images.githubusercontent.com/43974872/204205855-76bcdfec-c41e-4f08-93ca-237f38b04808.png)
+
+- Box Plot Total Summary
+
+![total summary](https://user-images.githubusercontent.com/43974872/204208712-60a0c2d9-b2ac-4fa8-9608-ac6f5a8e9d6f.png)
+
+- Box Plot Suspension by lot
+
+![suspensio summary](https://user-images.githubusercontent.com/43974872/204208162-e0042f68-ea58-478a-8c25-fd40d00aefee.png)
+
+The design specifications for the MechaCar suspension coils dictate that the **variance of the suspension coils must not exceed 100 pounds per square inch**. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+If we look at the results of the total summary, we can see that there are too many outliers, however, the variance of the suspension coils is within the established limit (62.29356 < 100 pounds per square inch). But, when we observed by lot, we can see that the Lot 3 is not under the established limit, and even have more inconsistencies in general.
