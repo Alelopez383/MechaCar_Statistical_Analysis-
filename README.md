@@ -142,3 +142,24 @@ Now we want to determine if all manufacturing lots and each lot individually are
 
  ![Lot 3](https://user-images.githubusercontent.com/43974872/204211856-d85adf2d-3cad-4aeb-ac74-b972c516d952.png)
 
+##  Study Design: MechaCar vs Competition
+
+In general, there are several factors when comparing a vehicle to the competition. The main factors for the final consumer are concentrated in the first place, cost - benefit, that is, whether the car is worth the sale price. Therefore, the necessary variables to carry out a study of the competition would be the sale price and the manufacturer's costs, since the price must be related to it. On the other hand, buyers are looking for safety and fuel economy. Lastly, aesthetic attributes of the vehicle, which will vary according to the price models of the vehicles and which will be the differentiators with respect to competing vehicles.
+
+Therefore, we are goint to do a Correlational research, which attempts to determine the extent of a relationship between two or more variables using statistical data. In this type of design, relationships between and among a number of facts are sought and interpreted. This type of research will recognize trends and patterns in data. 
+
+- What metric or metrics are you going to test?
+Variance and frequencies. Variance because we want to know how much variance in the dependent variable (safety) is accounted for in a linear combination of independent variables (prices, fuel economy, costs, number of vehicles sold). But also frequencies, because wwe want to know if there is a difference in categorical frequencies between groups (models of vehicles / competitors)
+
+- What is the null hypothesis or alternative hypothesis?
+The null hypothesis, the vehicle performance (safety) is relevant for the consummer when they buy a car. 
+Alternative hypothesis, safety is not relevant for the consumer when they buy a car.
+
+- What statistical test would you use to test the hypothesis? And why?
+Firt, test of normal distribution, to check that the data collected to analyze does not differ in the distribution of the observed data from what is expected if they came from a normal distribution with the same mean and standard deviation, and can be usable for statitstical models.
+Then, I would run a contingency table, to see the correlations of the variables and to observed the relations between them, if there is any.
+Then I would use a multiple linear regressión, to know if those variables can explain the dependent variable (safety).
+An d a Chi-squared test to see the frequencies of the differents vehicle models.
+
+- What data is needed to run the statistical test?
+Sale price, number of vehicles sold, manufacturer´s costs, safety (we could use reports about manufacturer's fault car accidents, or the vehicles with the most reported failures in the market), aesthetic attributes that the consumer seeks in a vehicle (could be extracted by a survey), and fuel consumption by type/model of vehicle.
